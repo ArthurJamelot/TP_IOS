@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32C31CE1C84563100793A18 /* LieuSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C31CD1C84563100793A18 /* LieuSet.swift */; };
+		D32C31CF1C84563100793A18 /* LieuSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C31CD1C84563100793A18 /* LieuSet.swift */; };
+		D394973F1C7D9A1D00933588 /* Lieu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394973E1C7D9A1D00933588 /* Lieu.swift */; };
+		D39497401C7D9A1D00933588 /* Lieu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394973E1C7D9A1D00933588 /* Lieu.swift */; };
+		D3AFEEE31C770F7E005C5413 /* Voyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B86A951C64D2D8000DEDA4 /* Voyage.swift */; };
 		D3B86A731C64D29A000DEDA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B86A721C64D29A000DEDA4 /* AppDelegate.swift */; };
 		D3B86A751C64D29A000DEDA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B86A741C64D29A000DEDA4 /* ViewController.swift */; };
 		D3B86A781C64D29A000DEDA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B86A761C64D29A000DEDA4 /* Main.storyboard */; };
@@ -14,6 +19,11 @@
 		D3B86A7D1C64D29A000DEDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B86A7C1C64D29A000DEDA4 /* Assets.xcassets */; };
 		D3B86A801C64D29A000DEDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B86A7E1C64D29A000DEDA4 /* LaunchScreen.storyboard */; };
 		D3B86A8B1C64D29A000DEDA4 /* VoyageVoyagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B86A8A1C64D29A000DEDA4 /* VoyageVoyagesTests.swift */; };
+		D3B86A961C64D2D8000DEDA4 /* Voyage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B86A951C64D2D8000DEDA4 /* Voyage.swift */; };
+		D3B86A991C64D50F000DEDA4 /* Voyages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B86A981C64D50F000DEDA4 /* Voyages.swift */; };
+		D3DA461A1C7714620033A15E /* Voyages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B86A981C64D50F000DEDA4 /* Voyages.swift */; };
+		D3DA464D1C77352C0033A15E /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA464C1C77352C0033A15E /* MyTableViewCell.swift */; };
+		D3DA464F1C7736090033A15E /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA464E1C7736090033A15E /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D32C31CD1C84563100793A18 /* LieuSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LieuSet.swift; sourceTree = "<group>"; };
+		D394973E1C7D9A1D00933588 /* Lieu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lieu.swift; sourceTree = "<group>"; };
 		D3B86A6F1C64D29A000DEDA4 /* VoyageVoyages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoyageVoyages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B86A721C64D29A000DEDA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3B86A741C64D29A000DEDA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +50,10 @@
 		D3B86A861C64D29A000DEDA4 /* VoyageVoyagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyageVoyagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B86A8A1C64D29A000DEDA4 /* VoyageVoyagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageVoyagesTests.swift; sourceTree = "<group>"; };
 		D3B86A8C1C64D29A000DEDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B86A951C64D2D8000DEDA4 /* Voyage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Voyage.swift; path = ../Voyage.swift; sourceTree = "<group>"; };
+		D3B86A981C64D50F000DEDA4 /* Voyages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Voyages.swift; path = ../Voyages.swift; sourceTree = "<group>"; };
+		D3DA464C1C77352C0033A15E /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTableViewCell.swift; path = ../MyTableViewCell.swift; sourceTree = "<group>"; };
+		D3DA464E1C7736090033A15E /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +95,15 @@
 		D3B86A711C64D29A000DEDA4 /* VoyageVoyages */ = {
 			isa = PBXGroup;
 			children = (
+				D394973E1C7D9A1D00933588 /* Lieu.swift */,
+				D32C31CD1C84563100793A18 /* LieuSet.swift */,
+				D3B86A951C64D2D8000DEDA4 /* Voyage.swift */,
+				D3B86A981C64D50F000DEDA4 /* Voyages.swift */,
 				D3B86A721C64D29A000DEDA4 /* AppDelegate.swift */,
 				D3B86A741C64D29A000DEDA4 /* ViewController.swift */,
+				D3DA464C1C77352C0033A15E /* MyTableViewCell.swift */,
 				D3B86A761C64D29A000DEDA4 /* Main.storyboard */,
+				D3DA464E1C7736090033A15E /* MyTableViewController.swift */,
 				D3B86A7C1C64D29A000DEDA4 /* Assets.xcassets */,
 				D3B86A7E1C64D29A000DEDA4 /* LaunchScreen.storyboard */,
 				D3B86A811C64D29A000DEDA4 /* Info.plist */,
@@ -201,8 +223,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3B86A7B1C64D29A000DEDA4 /* VoyageVoyages.xcdatamodeld in Sources */,
+				D32C31CE1C84563100793A18 /* LieuSet.swift in Sources */,
+				D3DA464F1C7736090033A15E /* MyTableViewController.swift in Sources */,
+				D3B86A991C64D50F000DEDA4 /* Voyages.swift in Sources */,
 				D3B86A751C64D29A000DEDA4 /* ViewController.swift in Sources */,
+				D394973F1C7D9A1D00933588 /* Lieu.swift in Sources */,
+				D3B86A961C64D2D8000DEDA4 /* Voyage.swift in Sources */,
 				D3B86A731C64D29A000DEDA4 /* AppDelegate.swift in Sources */,
+				D3DA464D1C77352C0033A15E /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39497401C7D9A1D00933588 /* Lieu.swift in Sources */,
+				D3AFEEE31C770F7E005C5413 /* Voyage.swift in Sources */,
+				D32C31CF1C84563100793A18 /* LieuSet.swift in Sources */,
 				D3B86A8B1C64D29A000DEDA4 /* VoyageVoyagesTests.swift in Sources */,
+				D3DA461A1C7714620033A15E /* Voyages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +424,7 @@
 				D3B86A911C64D29A000DEDA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3B86A921C64D29A000DEDA4 /* Build configuration list for PBXNativeTarget "VoyageVoyagesTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +433,7 @@
 				D3B86A941C64D29A000DEDA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
